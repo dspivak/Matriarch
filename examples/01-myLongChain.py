@@ -6,7 +6,8 @@ Created on Mon Apr 13 10:21:53 2015
 """
 
 import matriarch
-mySeq = 'AAAPPY'
+
+mySeq = "AAAPPY"
 myChain = matriarch.chain(mySeq)
-myLongChain = matriarch.attachSeries(myChain,5)
-myLongChain.fileOut('01-myLongChain.pdb')
+myLongChain = matriarch.attachSeries(myChain, 5)
+myLongChain.fileOut("01-myLongChain.pdb")
